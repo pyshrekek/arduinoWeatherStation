@@ -89,9 +89,7 @@ void loop() {
   String humidity = String(h, 0);
   String celsius = String(t, 2);
   String fahrenheit = String(f, 2);
-
-  //comment and uncomment for Celsius and Fahrenheit
-
+  
   display.setCursor(0,0);
   display.println("Temperature: " + celsius + "C");
   
@@ -101,6 +99,10 @@ void loop() {
   display.setCursor(0,24);
   display.println("Humidity: " + humidity + "%");
 
+  //why are you reading the code
+  //are you a nerd
+  //or are you trying to find mistakes in it
+  
   display.display();
   delay(2000);
 }
